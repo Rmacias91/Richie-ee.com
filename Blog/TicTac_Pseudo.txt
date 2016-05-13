@@ -1,0 +1,55 @@
+//Wrote this in 10 minutes so don't judge! :{
+//So, Im using one class to run the app activity.
+//Inside this class I'll need 
+
+//9 buttons to be created.
+//9 onclick(Listeners) That display images one time only.
+//An array of 9 integers.
+//A boolean that holds the place on who's turn.
+//1 = X, 2=0, 0 = null
+
+//A function that checks for winning condtions
+//A toast at the end of the game.
+
+TicTacToe_Activity(saved instace)
+private boolean m_whos_turn;
+private int tic_array[8] = 0;
+
+boolean who_won(tic_array){
+if(every winning condtion in the game)
+return true or false;
+}
+boolean tie_game{tic_array){
+for(int i=0; tic_array.length;i++){
+	if(array[i]==0){
+	return false;
+}
+	return true;
+}
+
+
+
+onCreate(onbundle instace)
+
+Create the 9 buttons
+Add listeners
+
+On click{
+	Used=True;
+	if(who_turn==0){
+		show image X;
+		array[button]==1; }
+
+	show image Y;
+	array[button]==2;
+	who_turn == ~who_turn; //Invert the boolean function.
+
+	if(who_won()){
+	toast(winner)
+	}
+	else(tie_game()){
+	toast(tie)
+	}
+
+}
+
