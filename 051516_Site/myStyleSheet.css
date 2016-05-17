@@ -1,4 +1,33 @@
 .center{
 	margin: 0% 15% 0% 15%;
-	font-size: 1em;
+
+}
+.sizeText{
+	font-size: 1.3em;
+}
+.centerText{
+	text-align:center;
+}
+p, h2, h3, h4{
+	text-align:center;
+}
+.orangeBack{
+	background-color:#C7D0D5;
+}
+ul.boldNav{
+	font-weight: bold;
+	font-style: oblique;
+	font-size: 1.2em;
+}
+.lightBlueBack{
+	background-color:#99CCCC;
+}
+p.intro{
+	opacity: .8;
+	padding-top: 20%;
+	padding-bottom: 20%;
+}
+h1{
+	text-shadow;
+	color:orange;
 }
