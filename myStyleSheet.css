@@ -8,8 +8,32 @@
 .centerText{
 	text-align:center;
 }
-p, h2, h3, h4{
+#title{
+margin-top: 13%;
+}
+body{
 	text-align:center;
+}
+ul{
+	display:inline;
+}
+
+li.classes{
+	font-size: 1.4em;
+} 
+li.classInfo{
+	font-style: italic;
+}
+h1{
+	text-shadow;
+	color:orange;
+}
+#resume{
+	font-size: 2.9em;
+	text-decoration: underline;
+}
+h3,h4{
+	text-decoration: underline;
 }
 .orangeBack{
 	background-color:#C7D0D5;
@@ -27,7 +51,4 @@ p.intro{
 	padding-top: 20%;
 	padding-bottom: 20%;
 }
-h1{
-	text-shadow;
-	color:orange;
-}
+
