@@ -7,8 +7,9 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
-
+  <script src = "JS/portfolio.js"></script>
 </head>
+
 <nav id="top" class = "navbar navbar-inverse navbar-fixed-top">
   <div class = "container-fluid">
     <div class = "navbar-header">
@@ -36,7 +37,7 @@
   <h2 class = "custom"> Most Recent Work </h2>
   <div class="container">
     <div class="row">
-      <div class="col-sm-6 imgWrap">
+      <div class="col-sm-6 imgWrap" onclick="altBackground(0)">
           <img class = "img-responsive" src = "Images/WordProc.png">
           <p class= "imgDescription">My Word Processor in my Data Structures Class.
           Calculated Flesh index score, and Prodcued Markov Text. Linked Lists, Junit,
@@ -45,7 +46,7 @@
           <a href ="https://github.com/Rmacias91/Word-Processor"> Click Here </a> for the code!</p>
           <h3>Word Processor</h3>
       </div>
-      <div class="col-sm-6">
+      <div class="col-sm-6" onclick="altBackground(1)">
         <div class="imgWrap">
           <img class= "img-responsive" src="Images/earthquakeCity.PNG" alt="polaroid" />
           <p class="imgDescription">My Earthquake city map from my Object Oriented class.
@@ -62,7 +63,7 @@
   <h2 class= "custom"> Favorites</h2>
   <div class="container">
     <div class="row">
-      <div class="col-sm-6">
+      <div class="col-sm-6" onclick="altBackground(2)">
         <div class="imgWrap">
           <img class= "img-responsive" src="Images/LEDPanels2.jpg" alt="polaroid" />
           <p class="imgDescription">My favorite Project, the LED PANELS! These display text I write in a file.
@@ -74,7 +75,7 @@
         <h3> LED Panels</h3>
         </div>
       </div>
-      <div class="col-sm-6">
+      <div class="col-sm-6" onclick="altBackground(3)">
         <div class="imgWrap">
           <img class= "img-responsive" src="Images/hard_mapping_class.jpg" alt="polaroid" />
           <p class ="imgDescription">My Senior Design Project, Spotter 1000. We bascially used a Pixy Camera

@@ -10,7 +10,7 @@
   bottom: 0;
   left: 0;
   right: 0;
-  background: rgba(192, 192, 192, 0.72);
+  background: rgba(192, 192, 192, 0.92);
   color: #000;
 
 
@@ -37,5 +37,6 @@
 }
 
 body{
+    background-image: url("Images/linedpaper_@2x.png")
     	text-align:center;
 }
