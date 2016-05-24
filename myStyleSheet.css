@@ -1,32 +1,44 @@
 .center{
-	margin: 0% 15% 0% 15%;
+	padding: 0% 13% 0% 13%;
 
 }
 .sizeText{
 	font-size: 1.3em;
 }
-.centerText{
-	text-align:center;
+
+.spaceBetween{
+	padding-top: 5%;
+	padding-bottom: 5%;
 }
 #title{
+
 margin-top: 13%;
+padding-top: 1%;
+padding-bottom: 5%;
+}
+a.yellow{
+color:yellow;
 }
 body{
 	text-align:center;
 }
 ul{
 	display:inline;
+	list-style-type: none;
 }
 
 li.classes{
 	font-size: 1.4em;
-} 
+}
 li.classInfo{
 	font-style: italic;
 }
 h1{
 	text-shadow;
 	color:orange;
+}
+.concreteBackground{
+	background-image: url("Images/brickwall_@2X.png");
 }
 #resume{
 	font-size: 2.9em;
@@ -36,7 +48,8 @@ h3,h4{
 	text-decoration: underline;
 }
 .seashellBack{
-	background-color: seashell;
+	color:white;
+	background-image: url("Images/mochaGrunge_@2X.png");
 }
 ul.boldNav{
 	font-weight: bold;
@@ -51,4 +64,3 @@ p.intro{
 	padding-top: 20%;
 	padding-bottom: 20%;
 }
-
