@@ -5,17 +5,19 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <meta name="description" content="">
-    <meta name="author" content="">
-    <link rel="icon" href="../../favicon.ico">
+    <meta name="description" content="My Portfolio">
+    <meta name="author" content="Richard Macias">
+    
 
     <title>Richie-ee</title>
 
     <!-- Bootstrap core CSS -->
-    <link href="../../dist/css/bootstrap.min.css" rel="stylesheet">
-
-    <!-- Custom styles for this template -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+	<link href="https://gitcdn.github.io/bootstrap-toggle/2.2.2/css/bootstrap-toggle.min.css" rel="stylesheet">
+    <!-- Custom styles/javascript for this template -->
     <link href="cover.css" rel="stylesheet">
+	
+	<script src = "JS/cover.js"></script>
   </head>
 
   <body>
@@ -26,30 +28,20 @@
 
         <div class="cover-container">
 
-          <div class="masthead clearfix">
-            <div class="inner">
-              <h3 class="masthead-brand">Richard Macias</h3>
-              <nav class="nav nav-masthead">
-
-                <a class="nav-link active bold" href="./aboutMe.html">About Me</a>
-                <a class="nav-link" href="./Portfolio.html">Portfolio</a>
-                <a class="nav-link" href="https://richieblogword.wordpress.com/">Blog</a>
-              </nav>
-            </div>
-          </div>
-
           <div class="inner cover">
-            <h1 class="cover-heading">Web & Android Developer</h1>
-            <p class="lead">"Man this site sucks."</p>
-            <button class = "btn-secondary"><a href = "./aboutMe.html">Enter</a></button>
+            <h1 id = "title">Web & Android Developer</h1>
+            <p id ="subTitle">Richard Macias</p>
+            <a href = "./aboutMe.html"><img id = "Enter"class= "img-circle img-responsive" onmouseOver="altBackground(this)" onmouseout="normalBackground(this)" src = "./Images/Enter2.png"></a>
           </div>
 
 
 
         </div>
-
-      </div>
-
+		<div id = "toggleDiv" class= "visible-xs">
+			<input id ="toggleSW"type="checkbox" checked data-toggle="toggle" value="false"onchange="selectBackground(this)">
+		</div>
+	  </div>
+		
     </div>
 
     <!-- Bootstrap core JavaScript
@@ -60,5 +52,6 @@
     <script src="../../dist/js/bootstrap.min.js"></script>
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
     <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
+	<script src="https://gitcdn.github.io/bootstrap-toggle/2.2.2/js/bootstrap-toggle.min.js"></script>
   </body>
 </html>

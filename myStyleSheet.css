@@ -35,8 +35,8 @@ h1{
 h3,h4{
 	text-decoration: underline;
 }
-.orangeBack{
-	background-color:#C7D0D5;
+.seashellBack{
+	background-color: seashell;
 }
 ul.boldNav{
 	font-weight: bold;

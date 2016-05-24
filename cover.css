@@ -20,7 +20,29 @@ a:hover {
   border-radius: 5px;
 }
 
+#Enter{
+width:30%;
+height: 30%;
+margin: auto;
+display:block;
+}
+#title{
+font-size: 2em;
+margin-top:15%;
+color:black;
+font-family: "Courier New", Courier, monospace;
+}
 
+#subTitle{
+font-size: 1em;
+margin-bottom: 25%;
+color:black;
+font-family:"Courier New", Courier, monospace;
+}
+#toggleDiv{
+display:none;
+margin-top:60%;
+}
 /*
  * Base structure
  */
@@ -28,7 +50,6 @@ a:hover {
 html,
 body {
   height: 100%;
-  background-image: url("Images/background.png");
   background-repeat:no-repeat;
   background-size:cover;
   background-position:center;
