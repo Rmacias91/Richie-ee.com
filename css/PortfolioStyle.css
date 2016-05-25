@@ -70,7 +70,7 @@ text-decoration: underline;
 #end{
   margin-bottom: 5%;
 }
-body{
+body.paperBackground{
   background-image: url("Images/linedpaper_@2x.png");
 }
 hr{
