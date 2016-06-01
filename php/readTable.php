@@ -1,8 +1,8 @@
-<?php>
+<?php
 include ('config.php');
 
 $sql = "SELECT * FROM myData";
-$result = $conn->query($sql);
+$result = mysql_query($sql);
 echo $result;
 
-<?>
+?>
