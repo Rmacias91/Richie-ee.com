@@ -1,0 +1,79 @@
+
+
+html,body{
+text-align: center;
+height:100%;
+margin:0%;
+padding:0%;
+
+}
+
+header{
+  font-family: "Courier New";
+  font-size: 1.5em;
+  margin:0%;
+  padding: 5%;
+  padding-top: 15%;
+  background-image: url("./headerImage2.jpg");
+}
+
+
+.cloud{
+  background: #E0EAFC;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to top, #CFDEF3, #E0EAFC);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to top, #CFDEF3, #E0EAFC); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+opacity: 0.9;
+}
+
+.white{
+  background-color: #f7f2ef;
+}
+
+.green{
+  color:#29db73;
+  display:inline;
+}
+
+
+
+#topHeader{
+  font-family: "Courier New";
+  font-size: 2.7em;
+  padding:0%;
+  margin:0%;
+  border-radius: 5px;
+}
+#subTop{
+  text-align: center;
+
+  border-radius: 5px;
+}
+#terminalTitle{
+  width:92%;
+  margin-right:3%;
+  margin-left: 5%;
+  margin-top: 4%;
+  padding-left:1%;
+  height:20px;
+  border-radius: 10px;
+  background-color: #9799a0;
+  font-size: 1.2em;
+  color: white;
+  text-align: left;
+}
+
+@media (max-width: @screen-xs) {
+    body{font-size: 10px;}
+}
+#terminal{
+  height:300px;
+  width:90%;
+  padding:1%;
+  margin-right:5%;
+  margin-left:5%;
+  background-color: #241038;
+  border-style: solid;
+  color: #ffffff;
+  text-align:left;
+
+}
