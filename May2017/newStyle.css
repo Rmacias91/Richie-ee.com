@@ -8,15 +8,23 @@ padding:0%;
 
 }
 
+footer{
+  font-size: 0.2em;
+  text-align: right;
+}
+
 header{
   font-family: "Courier New";
   font-size: 1.5em;
   margin:0%;
-  padding: 5%;
-  padding-top: 15%;
-  background-image: url("./headerImage2.jpg");
+  padding: 10%;
+  padding-top: 20%;
+  background-image: url("./headerImage.jpg");
 }
 
+p{
+font-size: 0.5em;
+}
 
 .cloud{
   background: #E0EAFC;  /* fallback for old browsers */
@@ -34,6 +42,20 @@ opacity: 0.9;
   display:inline;
 }
 
+.profilePic{
+  width:40%;
+  height:40%;
+  display: block;
+  margin: auto;
+  margin-top: 10%;
+}
+
+.profileDetail{
+  margin-left:20%;
+  margin-right:20%;
+  text-align: center;
+  font-size: 0.5em;
+}
 
 
 #topHeader{
@@ -49,11 +71,12 @@ opacity: 0.9;
   border-radius: 5px;
 }
 #terminalTitle{
-  width:92%;
+  width:90%;
   margin-right:3%;
   margin-left: 5%;
-  margin-top: 4%;
+  margin-top: 5%;
   padding-left:1%;
+  padding-bottom: 0px;
   height:20px;
   border-radius: 10px;
   background-color: #9799a0;
@@ -65,15 +88,26 @@ opacity: 0.9;
 @media (max-width: @screen-xs) {
     body{font-size: 10px;}
 }
-#terminal{
-  height:300px;
+#aboutMe{
+  height:45%;
   width:90%;
   padding:1%;
   margin-right:5%;
   margin-left:5%;
+  margin-bottom: 10%;
+  margin-top: 0px;
+  border-radius: 5px;
   background-color: #241038;
   border-style: solid;
   color: #ffffff;
   text-align:left;
 
+}
+
+#portfolio{
+  text-align: center;
+  margin-left: 5%;
+
+  font-size: 3.0em;
+  font-family: monospace;
 }

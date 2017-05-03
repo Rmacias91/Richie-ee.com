@@ -6,7 +6,7 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
-    
+
   </head>
 
 
@@ -17,20 +17,20 @@
           <span class = "icon-bar"></span>
           <span class = "icon-bar"></span>
           <span class = "icon-bar"></span>
+          <span class = "icon-bar"></span>
         </button>
         <a class = "navbar-brand" href = "./index.html">Richie-ee </a>
       </div>
       <div class = "collapse navbar-collapse" id= "myNavbar">
         <ul class = "nav navbar-nav">
-          <li><a href = "./aboutMe.html">About Me</a></li>
+          <li><a href = "#terminal">About Me</a></li>
+          <li><a href = "#portfolio">Portfolio</a></li>
           <li><a href = "https://www.github.com/Rmacias91">Github</a></li>
           <li><a href = "https://richieblogword.wordpress.com/">Blog</a></li>
         </ul>
       </div>
     </div>
   </nav>
-
-
 
 
 <header>
@@ -42,24 +42,95 @@
 
   <body class = "white">
 
-    <div id ="terminalTitle">Richie-ee@AboutMe</div>
-    <div id = "terminal">
-      <div class="green">Richie-ee@AboutMe:~$ </div>
-      Application Developer in Java/Android framework.
-      <br><br><div class="green">Richie-ee@AboutMe:~$ </div>
-      Bachelor's in Electrical Engineer 2014 UCF
-      <br><br><div class="green">Richie-ee@AboutMe:~$ </div>
-      Masters in Computer Science Georga Tech 2017 -2019
-      <br><br><div class="green">Richie-ee@AboutMe:~$ </div>
-      Worked in Optical Engieering and Power Engineering.
-      <br><br><div class="green">Richie-ee@AboutMe:~$ </div>
-      Self taught core CS principles and langauges: JAVA, C, Python,XML,HTMl,CSS.
-      <br><br><div class="green">Richie-ee@AboutMe:~$ </div>
-      sudo nano -c <a href="#portfolio"style="color:white">./MyWebsite/portfolio.html</a>
+
+          <div id ="terminalTitle">Richie-ee@AboutMe</div>
+          <div id = "aboutMe">
+            <div class="green">Richie-ee@AboutMe:~$ </div>
+            Application Developer in Java/Android framework.
+
+            <br><br><div class="green">Richie-ee@AboutMe:~$ </div>
+            Bachelor's in Electrical Engineer 2014 UCF
+
+            <br><br><div class="green">Richie-ee@AboutMe:~$ </div>
+            Master's in Computer Science Georga Tech 2017 -2019
+
+            <br><br><div class="green">Richie-ee@AboutMe:~$ </div>
+            Worked in Optical Engieering and Power Engineering.
+
+            <br><br><div class="green">Richie-ee@AboutMe:~$ </div>
+            Self taught core CS principles and langauges: JAVA, C, Python,XML,HTMl,CSS.
+
+            <br><br><div class="green">Richie-ee@AboutMe:~$ </div>
+            sudo nano -c <a href="./MyResumeApril.pdf" target="_blank" style="color:yellow">./MyWebsite/documents/Click here for my Resume!</a>
+
+            <br><br><div class="green">Richie-ee@AboutMe:~$ </div>
+            If you can't tell from the command prompt, I like Unbuntu.
+          </div>
+
+
+<div id = "portfolio">My Work<div>
+
+
+  <h3> Movies</h3>
+  <div class="container center">
+      <div class="row thumbnail">
+        <!--<div class="col-sm-7 imgWrap" onclick="altBackground(0)">Maybe add JavaScript to change background?-->
+          <div class="col-sm-3">
+            <img class = "img-responsive" src = "http://i.imgur.com/TgXMsN3.gif">
+          <!--  <p class= "imgDescription">Click here to Change the Background</p>-->
+
+        </div>
+
+        <div class="col-sm-9" style="padding-top:5%;">
+            <p> The Movies App helps me know what movies are worth watching. This App brings out a great list from database from theMovieDB.org. With a simple HTML request,
+                I parse the JSON response with an ASYNC task. With the help of Picasso and a custom RecyclerView, I display these awesome movies.
+                for more information, just click on the movie Poster.
+                Github code is <a href ="https://github.com/Rmacias91/AndroidPortfolio/tree/master/Movies"> Here! </a>
+            </p>
+        </div>
     </div>
 
+      </div>
 
+      <h3>LED Panels</h3>
+      <div class="container">
+        <div class="row thumbnail">
+      <div class="col-sm-4 imgWrap" onclick="altBackground(0)">
+        <img class= "img-responsive" src="./LEDPanels2.jpg" alt="polaroid" />
+      </div>
+      <div class="col-sm-8 center" onclick="altBackground(1)">
+          <p>My favorite Project, the LED PANELS! These display text I write in a file.
+          The C++ code to drive the LEDS was down by Hzeller. I wrote a python script which uses API's for grabbing the weather, time, etc.
+          I put it in a box and use it at work. Mostly for Quotes from the Office. I learned how to integrate different tools,
+         wrote C++ to have the text scroll on the LED Panels, used a raspberry Pi, and so much more! Here is a
+        <a href = "https://www.youtube.com/watch?v=EmBgLxWUfK0">YouTube Video Here</a> and code
+        <a href = "https://github.com/Rmacias91/Led_Panels">Right Here</a>.</p>
+      </div>
+    </div>
+  </div>
+
+  <h3>CSRF,XSS,SQL Injection attacks</h3>
+  <div class="container">
+    <div class="row thumbnail">
+  <div class="col-sm-4 imgWrap" onclick="altBackground(0)">
+    <img class= "img-responsive" src="./Task1Passed.JPG" alt="polaroid" />
+  </div>
+  <div class="col-sm-8 center" onclick="altBackground(1)">
+      <p></p>
+  </div>
+</div>
+</div>
+
+
+
+          <img class = "img-responsive profilePic" src = "./richie.jpg">
+          <div class ="profileDetail">In case you were wondering what I looked like. All pictures are from my trip to San Fransico!</div>
+        <!--  <p class= "imgDescription">Click here to Change the Background</p>-->
 
   </body>
+
+  <footer>
+    Website Updated at 5/3/2017
+  </footer>
 
 </html>
