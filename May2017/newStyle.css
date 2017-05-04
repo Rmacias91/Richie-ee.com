@@ -130,6 +130,7 @@ opacity: 0.9;
     body{font-size: 10px;}
 }
 .terminal{
+  font-size: 1.2em;
   height:45%;
   width:90%;
   padding:1%;
@@ -147,8 +148,15 @@ opacity: 0.9;
 }
 
 .subtitle{
-  text-align: center;
+  text-align: left;
   font-size: 3.5em;
   font-family: monospace;
-  margin-right: 10%;
+  margin-left: 15%;
+}
+
+.contact{
+  border-style: solid;
+  
+
+
 }
