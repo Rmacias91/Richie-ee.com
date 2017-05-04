@@ -23,7 +23,7 @@
       </div>
       <div class = "collapse navbar-collapse" id= "myNavbar">
         <ul class = "nav navbar-nav">
-          <li><a href = "#terminal">About Me</a></li>
+          <li><a href = "#aboutMe">About Me</a></li>
           <li><a href = "#portfolio">Portfolio</a></li>
           <li><a href = "https://www.github.com/Rmacias91">Github</a></li>
           <li><a href = "https://richieblogword.wordpress.com/">Blog</a></li>
@@ -40,11 +40,21 @@
 </div>
 </header>
 
-  <body class = "white">
+  <body class="unbuntu">
+
+<!--TODO make a three buttons, X,-,Sqaure, like unbuntu(Make buttons run javascript)-->
+      <!--    <div id= "aboutMe"class ="terminalTitle">Richie-ee@AboutMe</div>
+          <div class="terminal">-->
 
 
-          <div id ="terminalTitle">Richie-ee@AboutMe</div>
-          <div id = "aboutMe">
+<div id="aboutMe"class= "subtitle white">About Me</div>
+
+          <div class = "head">
+          <span>Richie-ee@AboutMe</span>
+          </div>
+        <div class="container-fluid">
+          <div class="row terminal">
+           <div class="col-sm-12">
             <div class="green">Richie-ee@AboutMe:~$ </div>
             Application Developer in Java/Android framework.
 
@@ -55,7 +65,7 @@
             Master's in Computer Science Georga Tech 2017 -2019
 
             <br><br><div class="green">Richie-ee@AboutMe:~$ </div>
-            Worked in Optical Engieering and Power Engineering.
+            Worked in Optical Engineering and Power Engineering.
 
             <br><br><div class="green">Richie-ee@AboutMe:~$ </div>
             Self taught core CS principles and langauges: JAVA, C, Python,XML,HTMl,CSS.
@@ -66,23 +76,27 @@
             <br><br><div class="green">Richie-ee@AboutMe:~$ </div>
             If you can't tell from the command prompt, I like Unbuntu.
           </div>
+        </div>
+      </div>
 
 
-<div id = "portfolio">My Work<div>
+<div id = "portfolio" class= "white subtitle">My Work</div>
 
 
-  <h3> Movies</h3>
-  <div class="container center">
-      <div class="row thumbnail">
-        <!--<div class="col-sm-7 imgWrap" onclick="altBackground(0)">Maybe add JavaScript to change background?-->
+  <div class = "head">
+  <span>Richie-ee@My Work/Movies</span>
+  </div>
+
+  <div class="container-fluid center">
+      <div class="row terminal">
           <div class="col-sm-3">
             <img class = "img-responsive" src = "http://i.imgur.com/TgXMsN3.gif">
-          <!--  <p class= "imgDescription">Click here to Change the Background</p>-->
-
         </div>
 
         <div class="col-sm-9" style="padding-top:5%;">
-            <p> The Movies App helps me know what movies are worth watching. This App brings out a great list from database from theMovieDB.org. With a simple HTML request,
+          <p>
+
+             The Movies App helps me know what movies are worth watching. This App brings out a great list from database from theMovieDB.org. With a simple HTML request,
                 I parse the JSON response with an ASYNC task. With the help of Picasso and a custom RecyclerView, I display these awesome movies.
                 for more information, just click on the movie Poster.
                 Github code is <a href ="https://github.com/Rmacias91/AndroidPortfolio/tree/master/Movies"> Here! </a>
@@ -92,45 +106,92 @@
 
       </div>
 
-      <h3>LED Panels</h3>
-      <div class="container">
-        <div class="row thumbnail">
+
+        <div class = "head">
+        <span>Richie-ee@My Work/Led Panels</span>
+      </div>
+
+      <div class="container-fluid" >
+        <div class="row terminal">
       <div class="col-sm-4 imgWrap" onclick="altBackground(0)">
         <img class= "img-responsive" src="./LEDPanels2.jpg" alt="polaroid" />
       </div>
       <div class="col-sm-8 center" onclick="altBackground(1)">
-          <p>My favorite Project, the LED PANELS! These display text I write in a file.
-          The C++ code to drive the LEDS was down by Hzeller. I wrote a python script which uses API's for grabbing the weather, time, etc.
-          I put it in a box and use it at work. Mostly for Quotes from the Office. I learned how to integrate different tools,
-         wrote C++ to have the text scroll on the LED Panels, used a raspberry Pi, and so much more! Here is a
+<!--TODO make a gif for the LED panels -->
+          <p>One of my favorite projects. They display any text the user inputs.
+          The C++ code to drive the LEDS was down by Hzeller. I wrote a python script which uses 3rd party API's for grabbing information like time, weather, tweets, etc.
+          The challenge in this project was integrating several languages and devices together to create this awesome system.
+          I wrote C++ to have the text scroll on the LED Panels, used a raspberry Pi and two LED panels, linux, and wrote a python script.
         <a href = "https://www.youtube.com/watch?v=EmBgLxWUfK0">YouTube Video Here</a> and code
         <a href = "https://github.com/Rmacias91/Led_Panels">Right Here</a>.</p>
       </div>
     </div>
   </div>
 
-  <h3>CSRF,XSS,SQL Injection attacks</h3>
-  <div class="container">
-    <div class="row thumbnail">
+  <div class = "head">
+  <span>Richie-ee@My Work/CSRF,XSS,SQL Injection attacks</span>
+  </div>
+
+  <div class="container-fluid">
+    <div class="row terminal">
   <div class="col-sm-4 imgWrap" onclick="altBackground(0)">
     <img class= "img-responsive" src="./Task1Passed.JPG" alt="polaroid" />
   </div>
-  <div class="col-sm-8 center" onclick="altBackground(1)">
-      <p></p>
+  <div class="col-sm-8 center">
+      <p>This project was from my most recent class taken in Georgia Tech. We needed to perform several attacks
+      on the fake payroll website. The attacks consisted of Cross-site request forgery, Cross-site scripting,
+      and SQL injection.
+      <br><div class="green">Richie-ee@MyWork/echo:~$ "${LanguagesUsed[*]} " </div>
+
+
+  </p>
   </div>
 </div>
 </div>
 
+<div class = "head">
+<span>Richie-ee@My Work/Criminal Intent </span>
+</div>
+<div class="container-fluid center">
+    <div class="row terminal">
+      <div class="col-sm-4">
+        <img class = "img-responsive" src = "http://i.imgur.com/3Qzbs8m.gif">
+      </div>
+      <div class="col-sm-8" >
+          <p>One of my favorite Android Portfolio on GithHub! I used the Nerd Ranch Android Development Book
+            to teach me how to make this app. I completed most of the extra challenges in the book and use this one at
+            work quite often :) It keeps track of bad conduct in the office. You can take a picture of the crime, record the date, time, and suspect.
+            You can even send a crime report to via external applications. More Information about what is used in the project will be in github
+            (09/29/16)<a href ="https://github.com/Rmacias91/AndroidPortfolio/tree/master/BNRportfolio/CriminalIntent"> Here </a> For the video on the full presenation, click here
+            <a href = "https://www.youtube.com/watch?v=cj1eR1-11zo">YouTube Link</a>
+          </p>
+      </div>
+    </div>
+    </div>
+
+<div class="subtitle white">Contact me @</div>
+<div class="container-fluid center"style="height=5%;">
+    <div class="row">
 
 
-          <img class = "img-responsive profilePic" src = "./richie.jpg">
-          <div class ="profileDetail">In case you were wondering what I looked like. All pictures are from my trip to San Fransico!</div>
         <!--  <p class= "imgDescription">Click here to Change the Background</p>-->
 
+<div class="col-sm-4">
+<img class = "img-responsive img-rounded" src = "./github.png">
+</div>
+
+<div class="col-sm-4">
+<img class = "img-responsive img-rounded" src = "./mail.png">
+</div>
+<div class="col-sm-4">
+<img class = "img-responsive img-rounded" src = "./linkdin.png">
+</div>
+
+<img class = "img-responsive profilePic" src = "./richie.jpg">
+<div class ="profileDetail white">In case you were wondering what I looked like.
+  All pictures are from my trip to San Fransico!</div>
   </body>
 
-  <footer>
-    Website Updated at 5/3/2017
-  </footer>
+
 
 </html>
