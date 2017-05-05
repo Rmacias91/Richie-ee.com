@@ -1,6 +1,18 @@
 
 $(document).ready(function(){
 
+
+if($(window).width() < 768){
+
+  $("#topHeader").text("Hi, I'm Richie");
+  $("#topHeader").css("font-Size", "2.2em");
+
+  $("span").css("font-Size", "1.0em");
+}
+
+
+
+
   //**About Me *************************************//
   $("#closeBut1").click(function(){
     $("#aboutMeDetail").slideUp(1000);
