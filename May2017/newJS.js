@@ -14,7 +14,7 @@ if($(window).width() < 768){
   $("#sub4").text("Criminal Intent");
   $("#sub5").text("LED Panels");
 
-  $("header").css("background-image", "url('./smallCover.png')");
+  $("header").css("background-image" "url('./smallCover.png')")
 }
 
 
