@@ -11,26 +11,24 @@ max-width: 100%;
 
 }
 
-footer{
-  font-size: 0.2em;
-  text-align: right;
-}
+
 
 header{
   font-family: "Courier New";
   font-size: 1.5em;
   margin-right:10%;
+  margin-left: 0%;
   margin-bottom:10%;
   padding: 10%;
   padding-top: 20%;
-  width:80%;
-  background-image: url("./headerImage.jpg");
-  background-repeat: no-repeat;
+  width:85%;
+  background-image: url("./cover.jpg");
+
 }
 
 p{
 font-size: 1.3em;
-font-family: 'Ubuntu Mono', sans-serif;
+
 }
 
 

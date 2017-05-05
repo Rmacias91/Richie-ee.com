@@ -7,7 +7,12 @@ if($(window).width() < 768){
   $("#topHeader").text("Hi, I'm Richie");
   $("#topHeader").css("font-Size", "2.2em");
 
-  $("span").css("font-Size", "1.0em");
+  $("span").css("font-Size", "0.9em");
+  $("#sub1").text("About Me");
+  $("#sub2").text("Movies");
+  $("#sub3").text("CSRF,XSS,SQL Atks");
+  $("#sub4").text("Criminal Intent");
+  $("#sub5").text("LED Panels");
 }
 
 

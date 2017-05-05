@@ -1,13 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <script type="application/ld+json">
-{
-  "@context": "http://schema.org",
-  "@type": "Portfolio",
-  "url": "http://www.Richie-ee.com",
-}
-</script>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title> My Work </title>
   <link href="./PortfolioStyle.css" rel="stylesheet" type="text/css" media="all" />
@@ -42,73 +35,16 @@
   <h1 id ="title" class="center">Portfolio</h1>
 
   <div class = "spaceBetween">
-  <h3 class = "left"> Movies Part 1</h3>
-  <div class="container center">
-      <div class="row">
-        <!--<div class="col-sm-7 imgWrap" onclick="altBackground(0)">Maybe add JavaScript to change background?-->
-          <div class="col-sm-4">
-            <img class = "img-responsive" src = "http://i.imgur.com/TgXMsN3.gif">
-          <!--  <p class= "imgDescription">Click here to Change the Background</p>-->
-
-        </div>
-        <div class="col-sm-8" onclick="altBackground(1)">
-            <p> I really am enjoying writing this project! The Movies App helps me know what movies are worth watching in
-                theaters. Of course I could google top movies, but this App brings out a great list from theMovieDB.org.
-                In short, I call an html request to the DB using their API. I use an AsyncTask for this "task" and sort
-                the JSON response into useful information. I store the information I want in a list of Movie Objects.
-                I use this awesome library called Picasso to display the images on a custom RecyclerView(Grid Layout). Last,
-                I set up the items on the list to be clicked. This leads to a Detail View appearing which displays more information about the movie.
-                You can also go to settings and sort by Most Popular or Highest Rated. This is part of a Udacity course but all of the code is
-                written by myself. The hardest part is the front end, but practice makes perfect! Github code is
-                <a href ="https://github.com/Rmacias91/AndroidPortfolio/tree/master/Movies"> Here! </a>
-            </p>
-        </div>
-    </div>
-
-      </div>
-  </div>
-  <hr style="border-top: dashed 2px;" />
-
-
-
-
-  <div class = "spaceBetween">
-  <h3 class = "right"> Criminal Intent</h3>
-  <div class="container center">
-      <div class="row">
-        <!--<div class="col-sm-7 imgWrap" onclick="altBackground(0)">Maybe add JavaScript to change background?-->
-        <div class="col-sm-8" onclick="altBackground(1)">
-            <p>One of my favorite Android Portfolio on GithHub! I used the Nerd Ranch Android Development Book
-              to teach me how to make this app. I completed most of the extra challenges in the book and use this one at
-              work quite often :) It keeps track of bad conduct in the office. You can take a picture of the crime, record the date, time, and suspect.
-              You can even send a crime report to via external applications. More Information about what is used in the project will be in github
-              (09/29/16)<a href ="https://github.com/Rmacias91/AndroidPortfolio/tree/master/BNRportfolio/CriminalIntent"> Here </a> For the video on the full presenation, click here
-              <a href = "https://www.youtube.com/watch?v=cj1eR1-11zo">YouTube Link</a>
-            </p>
-        </div>
-        <div class="col-sm-4">
-          <img class = "img-responsive" src = "http://i.imgur.com/3Qzbs8m.gif">
-        <!--  <p class= "imgDescription">Click here to Change the Background</p>-->
-
-      </div>
-    </div>
-
-      </div>
-  </div>
-  <hr style="border-top: dashed 2px;" />
-
-
-  <div class = "spaceBetween">
   <h3 class = "left"> ToDoApp</h3>
   <div class="container center">
       <div class="row">
         <!--<div class="col-sm-7 imgWrap" onclick="altBackground(0)">Maybe add JavaScript to change background?-->
-          <div class="col-sm-4">
+          <div class="col-sm-7">
             <img class = "img-responsive" src = "Images/toDoApp Video.gif">
           <!--  <p class= "imgDescription">Click here to Change the Background</p>-->
 
         </div>
-        <div class="col-sm-8" onclick="altBackground(1)">
+        <div class="col-sm-5" onclick="altBackground(1)">
             <p>My Current Android App. It's a toDo list! Work in progress for the Code Path bootcamp, sponsored by Uber.
             I'm currently updating the features and looks!(06/06/16)<a href ="https://github.com/Rmacias91/toDoApp"> Click Here </a> for the code!</p>
         </div>
@@ -180,15 +116,15 @@
   </div>
   <hr style="border-top: dashed 2px;" />
   <div class ="spaceBetween">
-   <h3>Spotter 1000</h3>
+   <h3 class ="right">Spotter 1000</h3>
     <div class="container">
       <div class="row">
         <div class="col-sm-4" onclick="altBackground(1)">
-          <p>My Senior Design Project, Spotter 1000. We  used a Pixy Camera(has built in hue/color detection)
+          <p>My Senior Design Project, Spotter 1000. We bascially used a Pixy Camera
           to scan the room on our pan and tilt system. I made an extendable pole from 7 to 14 feet. Our
-           camera scanned the room for unique colors matching the sticky notes on the chairs. We sent the cordinates using a wifi shield to a web server.
-            On the server, we updated the grid on a mobile web app. <a href ="Documents/conference_paper.pdf">Here</a> is the short
-           summary of the project. If you want the full 90 page paper, please email me and I will glady send it over.</p>
+           camera was able to identify colors, so we scanned the room for unique colors of the sticky notes. Sent the cordinates
+           to a grid system and filled in the grid on a mobile web app. <a href ="Documents/conference_paper.pdf">Here</a> is the short
+           summary of the project. We wrote a 90 page paper, but no one will read that.</p>
         </div>
              <div class="col-sm-8 imgWrap" onclick="altBackground(0)">
                  <img class= "img-responsive" src="Images/hard_mapping_class.jpg" alt="polaroid" />
@@ -201,8 +137,8 @@
   <div id = "end"class ="spaceBetween">
     <h3 class= "left">This Site </h3>
     <div class="col-sm-12 center" onclick="altBackground(1)">
-      <p>After taking several classes for front-end design, I decided to make this website to display my projects. I used HTML,CSS, JavaScript,
-      and Bootstrap. <a href ="https://github.com/Rmacias91/Richie-ee.com">Click Here</a> for my code. This site has been updated on Dec-11-2016</p>
+      <p>After taking several classes for front end design, I decided to make this website to display my projects. I used HTML,CSS, JavaScript,
+      and Bootstrap. <a href ="https://github.com/Rmacias91/Richie-ee.com">Click Here</a> for my code. This site has been updated on May-24-2016</p>
     </div>
   </div>
 </body>
