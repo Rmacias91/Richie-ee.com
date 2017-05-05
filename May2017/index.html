@@ -1,12 +1,21 @@
 <!DOCTYPE html>
 <html>
   <head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="My Portfolio">
+    <meta name="author" content="Richard Macias">
+
+    
     <title>Richie-ee</title>
     <link href="./newStyle.css" rel="stylesheet" type="text/css" media="all" />
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
-
+    <script src="./newJS.js"></script>
   </head>
 
 
@@ -34,7 +43,7 @@
 
 
 <header>
-    <div id="topHeader" class = "cloud">Hi, I'm Richie</div>
+    <div id="topHeader" class = "cloud">Hi, I'm Richard</div>
 <div>
     <div id = "subTop" class = "cloud">Software Developer</div>
 </div>
@@ -50,10 +59,13 @@
 <div id="aboutMe"class= "subtitle white"><div style="font-size:0.4em"class="green">Richie-ee@AboutMe:~$ </div>cd About Me</div>
 
           <div class = "head">
+            <a id= "closeBut1"class='btn'>&#10005;</a>
+            <a id= "minBut1" class='btn stnd'>&#9472;</a>
+            <a id="maxBut1" class='btn stnd max'>&#9723;</a>
           <span>Richie-ee@AboutMe</span>
           </div>
         <div class="container-fluid">
-          <div class="row terminal">
+          <div id = "aboutMeDetail" class="row terminal">
            <div class="col-sm-12">
             <div class="green">Richie-ee@AboutMe:~$ </div>
             Application Developer in Java/Android framework.
@@ -84,11 +96,14 @@
 
 
   <div class = "head">
+    <a id= "closeBut2"class='btn'>&#10005;</a>
+    <a id= "minBut2" class='btn stnd'>&#9472;</a>
+    <a id="maxBut2" class='btn stnd max'>&#9723;</a>
   <span>Richie-ee@My Work/Movies</span>
   </div>
 
   <div class="container-fluid center">
-      <div class="row terminal">
+      <div id= "proj1" class="row terminal">
           <div class="col-sm-3">
             <img class = "img-responsive" src = "http://i.imgur.com/TgXMsN3.gif">
         </div>
@@ -118,11 +133,14 @@
 
 
   <div class = "head">
-  <span>Richie-ee@My Work/CSRF,XSS,SQL Injection attacks</span>
+    <a id= "closeBut3"class='btn'>&#10005;</a>
+    <a id= "minBut3" class='btn stnd'>&#9472;</a>
+    <a id="maxBut3" class='btn stnd max'>&#9723;</a>
+  <span>Richie-ee@My Work/CSRF,XSS,SQL Injection</span>
   </div>
 
   <div class="container-fluid">
-    <div class="row terminal">
+    <div id= "proj2"class="row terminal">
   <div class="col-sm-4 imgWrap" onclick="altBackground(0)">
     <img class= "img-responsive" src="./Task1Passed.JPG" alt="polaroid" />
   </div>
@@ -146,10 +164,14 @@
 </div>
 
 <div class = "head">
+  <a id= "closeBut4"class='btn'>&#10005;</a>
+  <a id= "minBut4" class='btn stnd'>&#9472;</a>
+  <a id="maxBut4" class='btn stnd max'>&#9723;</a>
 <span>Richie-ee@My Work/Criminal Intent </span>
+
 </div>
 <div class="container-fluid center">
-    <div class="row terminal">
+    <div id="proj3" class="row terminal">
       <div class="col-sm-4">
         <img class = "img-responsive" src = "http://i.imgur.com/3Qzbs8m.gif">
       </div>
@@ -157,19 +179,28 @@
         <!--TODO I need a way Better GIF-->
           <p>Criminal Intent is an app that keeps track of bad conduct in the office. You can take a picture of the crime, record the date, time, and suspect.
             You can even send a crime report via external applications.
-            <a href ="https://github.com/Rmacias91/AndroidPortfolio/tree/master/BNRportfolio/CriminalIntent"> Here </a> For the video on the full presenation, click here
-            <a href = "https://www.youtube.com/watch?v=cj1eR1-11zo">YouTube Link</a>
+            <a style="color:yellow" href ="https://github.com/Rmacias91/AndroidPortfolio/tree/master/BNRportfolio/CriminalIntent"> Here </a> For the video on the full presenation, click here
+            <a style="color:yellow" href = "https://www.youtube.com/watch?v=cj1eR1-11zo">YouTube Link</a>
           </p>
+          <br><div class="green">Richie-ee@AboutMe:~$ </div>echo "${toolsUsed[*]}"
+          <ul>
+            <li>Android Framework</li>
+            <li>Java</li>
+            <li>XML</li>
+          </ul>
       </div>
     </div>
     </div>
 
     <div class = "head">
+      <a id= "closeBut5"class='btn'>&#10005;</a>
+      <a id= "minBut5" class='btn stnd'>&#9472;</a>
+      <a id="maxBut5" class='btn stnd max'>&#9723;</a>
     <span>Richie-ee@My Work/Led Panels</span>
   </div>
 
   <div class="container-fluid" >
-    <div class="row terminal">
+    <div id="proj4" class="row terminal">
   <div class="col-sm-4 imgWrap" onclick="altBackground(0)">
     <img class= "img-responsive" src="./LEDPanels2.jpg" alt="polaroid" />
   </div>
@@ -180,7 +211,7 @@
       The challenge in this project was integrating several languages and devices together to create this awesome system.
     <a style="color:yellow" href = "https://www.youtube.com/watch?v=EmBgLxWUfK0">YouTube Video Here</a> and the GitHub code
     <a style="color:yellow" href = "https://github.com/Rmacias91/Led_Panels">Right Here</a>.</p>
-    <br><div class="green">Richie-ee@AboutMe:~$ </div>echo $toolsUsed[*]
+    <br><div class="green">Richie-ee@AboutMe:~$ </div>echo "${toolsUsed[*]}"
     <ul>
       <li>Raspberry Pi</li>
       <li>(2)16x32 LED panels</li>
@@ -194,29 +225,33 @@
 </div>
 
 
-<div class="subtitle white"><div style="font-size:0.4em"class="green">Richie-ee@AboutMe:~$ </div>cd Contact me @</div>
-<div class="container-fluid contact"style="height=5%;">
+<div class="subtitle white"><div style="font-size:0.4em"class="green">Richie-ee@AboutMe:~$ </div>cd Contact me </div>
+<div class="container-fluid">
     <div class="row">
 
 
         <!--  <p class= "imgDescription">Click here to Change the Background</p>-->
 
-<div class="col-sm-4 ">
-<img class = "img-responsive img-rounded" src = "./github.png">
+<div style="margin-bottom:10%;"class="col-sm-4">
+  <a href="http://www.github.com/Rmacias91">
+    <img class = "img-rounded contactPic " src = "./github.png">
+  </a>
 </div>
 
 <div class="col-sm-4">
-<img class = "img-responsive img-rounded" src = "./mail.png">
+  <a href="https://mail.google.com/mail/?view=cm&fs=1&to=Rmacias2454@gmail.com">
+    <img class = "img-rounded contactPic" style="margin-top:5%;"src = "./mail.png">
+  </a>
+  <br><div class = "white">Rmacias2454@gmail.com</div>
 </div>
 <div class="col-sm-4">
-<img class = "img-responsive img-rounded" src = "./linkdin.png">
+  <a href="https://www.linkedin.com/in/richard-macias-295687a1/">
+    <img class = "img-rounded contactPic" src = "./linkdin.png">
+  </a>
 </div>
 </div>
 </div>
 
-<img class = "img-responsive profilePic" src = "./richie.jpg">
-<div class ="profileDetail white">In case you were wondering what I looked like.
-  All pictures are from my trip to San Fransico!</div>
   </body>
 
 
