@@ -6,3 +6,9 @@
     background-size: cover;
     -o-background-size: cover;
 }
+
+
+.phoneImg{
+  @media only screen and (min-width: 768px) {width: : 0%;}
+
+}
