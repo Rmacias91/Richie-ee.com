@@ -1,274 +1,171 @@
 <!DOCTYPE html>
 <html>
-
 <head>
-
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="My Portfolio">
   <meta name="author" content="Richard Macias">
-
-
   <title>Richie-ee</title>
-  <link href="./newStyle.css" rel="stylesheet" type="text/css" media="all" />
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
-  <script src="./newJS.js"></script>
+
+    <link href="css/full-width-pics.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+  <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
 </head>
 
+<!-- Lets use BootStrap and Mobile First Design-->
 
-<nav id="top" class="navbar navbar-inverse navbar-fixed-top">
-  <div class="container-fluid">
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar" <span class="icon-bar"></span>
-          <span class = "icon-bar"></span>
-          <span class = "icon-bar"></span>
-          <span class = "icon-bar"></span>
-        </button>
-      <a class="navbar-brand" href="./index.html">Richie-ee </a>
-    </div>
-    <div class="collapse navbar-collapse" id="myNavbar">
-      <ul class="nav navbar-nav">
-        <li><a href="#aboutMe">About Me</a></li>
-        <li><a href="#portfolio">Portfolio</a></li>
-        <li><a href="https://www.github.com/Rmacias91">Github</a></li>
-        <li><a href="https://richieblogword.wordpress.com/">Blog</a></li>
-      </ul>
+<nav class="navbar fixed-top navbar-toggleable-md navbar-light bg-faded">
+  <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <a class="navbar-brand" href="http://richie-ee.com">Richie-ee</a>
+  <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+    <div class="navbar-nav">
+      <a class="nav-item nav-link" href="#aboutMe">About Me</a>
+      <a class="nav-item nav-link" href="#portfolio">Portfolio</a>
+      <a class="nav-item nav-link" href="https://www.github.com/Rmacias91">Github</a>
+      <a class="nav-item nav-link" href="https://richieblogword.wordpress.com"/>Blog</a>
     </div>
   </div>
 </nav>
 
+<body>
+  <header>
+    <header class="py-5 bg-image-full" style="background-image:  url('./images/cover.jpg');">
+      <div class="alert alert-warning alert-dismissible fade show" role="alert">
+        <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+        <strong>Sorry!</strong> Site is Currently under Construction (08/14/17)
+      </div>
+      <div class = "container-fluid" style = "background-color:white; opacity:0.7;">
+        <div class ="containter-fulid" style="color:black;text-align:center;"><h1>Richard Macias</h1></div>
+        <div class ="containter-fulid" style="color:black;text-align:center;"><h2>Software Developer</h2></div>
 
-<header>
-  <div id="topHeader" class="cloud">Hi, I'm Richard</div>
-  <div>
-    <div id="subTop" class="cloud">Software Developer</div>
-  </div>
-</header>
+      </div>
+  </header>
 
-<body class="unbuntu">
+  <section id="aboutMe"class="py-5">
+      <div class="container">
+          <h1>About Me</h1>
+          <p class="lead">Software Developer Located in Chicago</p>
+          <p>Currently developing mobile and web applications. Formal education in Electrical Engineering
+          at the University of Central Florida. Taking courses for my Masters in Computer Science at Georgia Tech.
+          I've worked in various fields solving unique problems on the way. I am self taught in core computer science fundamentals,
+          Java,C,Python,HTML,CSS,Web and Android frameworks.</p>
+          <p class="lead">Download my Resume <a href ="./docs/RichardAMacias.pdf"target="_blank"><b>here</b>.</a></p>
+      </div>
+  </section>
 
-  <!--TODO make a three buttons, X,-,Sqaure, like unbuntu(Make buttons run javascript)-->
-  <!--    <div id= "aboutMe"class ="terminalTitle">Richie-ee@AboutMe</div>
-          <div class="terminal">-->
+
+  <section class="py-5 bg-image-full img-rounded" style="background-image: url('./images/richie.jpg');">
+    <div style="height: 200px;"></div>
+</section>
+<p class="lead" style = "text-align:center;">In case you were wondering, that's me!</p>
+
+<section id="portfolio" class="pt-5 content">
+    <div class="container">
+        <h1>Portfolio</h1>
+        <p class="lead"><b>Cryptogram App</b></p>
+
+    </div>
+</section>
 
 
-  <div id="aboutMe" class="subtitle white">
-    <div style="font-size:0.4em" class="green">Richie-ee@AboutMe:~$ </div>About Me</div>
-
-  <div class="head">
-    <a id="closeBut1" class='btn'>&#10005;</a>
-    <a id="minBut1" class='btn stnd'>&#9472;</a>
-    <a id="maxBut1" class='btn stnd max'>&#9723;</a>
-    <span id="sub1">Richie-ee@AboutMe</span>
-  </div>
-  <div class="container-fluid">
-    <div id="aboutMeDetail" class="row terminal">
-      <div class="col-sm-12">
-        <div class="green">Richie-ee@AboutMe:~$ </div>
-        Application Developer in Java/Android framework with some Web design experience.
-
-        <br><br>
-        <div class="green">Richie-ee@AboutMe:~$ </div>
-        Bachelor's in Electrical Engineer 2014 UCF
-
-        <br><br>
-        <div class="green">Richie-ee@AboutMe:~$ </div>
-        Master's in Computer Science Georga Tech 2017 -2019
-
-        <br><br>
-        <div class="green">Richie-ee@AboutMe:~$ </div>
-        Worked in Optical Engineering and Power Engineering.
-
-        <br><br>
-        <div class="green">Richie-ee@AboutMe:~$ </div>
-        Self taught core CS principles and langauges: JAVA, C, Python,XML,HTML,CSS.
-
-        <br><br>
-        <div class="green">Richie-ee@AboutMe:~$ </div>
-        <a href="./RichardAMacias.pdf" target="_blank" style="color:yellow">./MyWebsite/documents/Click here for my Resume!</a>
-
-        <br><br>
-        <div class="green">Richie-ee@AboutMe:~$ </div>
-        My website's design is based off the Ubuntu Operating system. I used HTML, CSS, and JQuery.
+  <div class="container pt-1">
+    <div class="row terminal">
+      <div class="col-xs-4" margin="auto"align="middle">
+        <img class="img-fluid rounded" src="./images/sdpCrypt.PNG" width=65%  >
+      </div>
+      <div class="col-xs-8 py-3 px-2 content">
+        <p class="lead">Android App created in CS6300 Software Development Process</p>
+        <p>A puzzle application was created in a team of four software developers. Our team was given specific user
+        requirements and a premade Web Service Utility. The project is well designed, documented, tested, and met all requirements.
+        Due to Georgia Tech policies, the source code can not be displayed on a public repository.</p>
       </div>
     </div>
   </div>
 
-
-  <div id="portfolio" class="white subtitle">
-    <div style="font-size:0.4em" class="green">Richie-ee@AboutMe:~$ </div> My Work</div>
-
-
-  <div class="head">
-    <a id="closeBut2" class='btn'>&#10005;</a>
-    <a id="minBut2" class='btn stnd'>&#9472;</a>
-    <a id="maxBut2" class='btn stnd max'>&#9723;</a>
-    <span id="sub2">Richie-ee@My Work/Movies</span>
-  </div>
-
-  <div class="container-fluid">
-    <div id="proj1" class="row terminal">
-      <div class="col-sm-3">
-        <img class="img-responsive" src="http://i.imgur.com/TgXMsN3.gif">
+  <section class="pt-5 content">
+      <div class="container">
+          <p class="lead"><b>Cross-site Request Forgery, Scripting, and SQL Injection attacks</b></p>
       </div>
+  </section>
 
-      <div class="col-sm-9" style="padding-top:5%;">
-        <p>
-          The "Movies" App helps me know what movies are worth watching. With a simple HTML request to "theMoviesDB.org website", the phone recieves the best movies by popularity or rating in a JSON response. With an Async Task, I use Picasso and a custom RecyclerView to display these awesome movies. For more
-          information on a movie, just click on the movie Poster. Github code is <a style="color:yellow" href="https://github.com/Rmacias91/AndroidPortfolio/tree/master/Movies"> Here! </a>
-          <br><br>
-          <div class="green">Richie-ee@MyWork:~$ </div>echo "${toolsUsed[*]}"
 
-          <ul>
-            <li>Android Framework</li>
-            <li>Java</li>
-            <li>SQLite</li>
-            <li>XML</li>
-            <li>theMovieDB API</li>
-          </ul>
-        </p>
+    <div class="container-fluid pt-1">
+      <div class="row terminal">
+        <div class="col-xs-4" margin="auto"align="middle">
+          <img class="img-fluid rounded" src="./images/xssAtk.png" >
+        </div>
+        <div class="col-xs-8 py-3 px-2 content">
+          <p class="lead">Android App created in CS6300 Software Development Process</p>
+          <p>A puzzle application was created in a team of four software developers. Our team was given specific user
+          requirements and a premade Web Service Utility. The project is well designed, documented, tested, and met all requirements.
+          Due to Georgia Tech policies, the source code can not be displayed on a public repository.</p>
+        </div>
       </div>
     </div>
 
-  </div>
+    <section class="pt-5 content" >
+        <div class="container">
+            <p class="lead"><b>Movie Reviews!</b></p>
+        </div>
+    </section>
 
 
-
-  <div class="head">
-    <a id="closeBut3" class='btn'>&#10005;</a>
-    <a id="minBut3" class='btn stnd'>&#9472;</a>
-    <a id="maxBut3" class='btn stnd max'>&#9723;</a>
-    <span id="sub3">Richie-ee@My Work/CSRF,XSS,SQL Injection</span>
-  </div>
-
-  <div class="container-fluid">
-    <div id="proj2" class="row terminal">
-      <div class="col-sm-5 imgWrap">
-        <img class="img-responsive" src="./xssAtk.png" alt="polaroid" />
-      </div>
-      <div class="col-sm-7">
-        <p>This project was from my most recent class taken in Georgia Tech. We needed to perform several attacks on the fake payroll website. The attacks consisted of Cross-site request forgery, Cross-site scripting, and SQL injection. To avoid plagiarism,
-          you will need to <a href="#contactMe" style="color:yellow;">Contact me</a> for more information about this project.
-          <br>
-          <div class="green">Richie-ee@MyWork/:~$</div> echo "${toolsUsed[*]}"
-          <ul>
-            <li>HTML</li>
-            <li>JavaScript</li>
-            <li>PHP</li>
-            <li>MySQL</li>
-          </ul>
-        </p>
-      </div>
-    </div>
-  </div>
-
-  <div class="head">
-    <a id="closeBut4" class='btn'>&#10005;</a>
-    <a id="minBut4" class='btn stnd'>&#9472;</a>
-    <a id="maxBut4" class='btn stnd max'>&#9723;</a>
-    <span id="sub4">Richie-ee@My Work/Criminal Intent </span>
-
-  </div>
-  <div class="container-fluid center">
-    <div id="proj3" class="row terminal">
-      <div class="col-sm-4">
-        <img class="img-responsive" src="http://i.imgur.com/jrXnC6M.gif">
-      </div>
-      <div class="col-sm-8">
-        <!--TODO I need a way Better GIF-->
-        <p>
-          Criminal Intent is an app that keeps track of bad conduct in the office. You can take a picture of the crime, record the date, time, and suspect. You can even send a crime report via external applications.
-          <a style="color:yellow" href="https://github.com/Rmacias91/AndroidPortfolio/tree/master/BNRportfolio/CriminalIntent"> The code is Here </a> For the video on the full presenation, click here
-          <a style="color:yellow" href="https://www.youtube.com/watch?v=cj1eR1-11zo">YouTube Link</a>
-        </p>
-        <br>
-        <div class="green">Richie-ee@AboutMe:~$ </div>echo "${toolsUsed[*]}"
-        <ul>
-          <li>Android Programming: The Big Nerd Ranch Guide</li>
-          <li>Android Framework</li>
-          <li>Java</li>
-          <li>XML</li>
-        </ul>
-      </div>
-    </div>
-  </div>
-
-  <div class="head">
-    <a id="closeBut5" class='btn'>&#10005;</a>
-    <a id="minBut5" class='btn stnd'>&#9472;</a>
-    <a id="maxBut5" class='btn stnd max'>&#9723;</a>
-    <span id="sub5">Richie-ee@My Work/Led Panels</span>
-  </div>
-
-  <div class="container-fluid">
-    <div id="proj4" class="row terminal">
-      <div class="col-sm-4 imgWrap" onclick="altBackground(0)">
-        <img class="img-responsive" src="http://i.imgur.com/c6ot6qU.gif" alt="polaroid" />
-      </div>
-      <div class="col-sm-8 center">
-        <!--TODO make a gif for the LED panels -->
-        <p>
-          Instead of buying a sign, I made my own. Using Hzeller's C++ library to drive my LED panel's, I customized some aspects of his code to scroll my custom messages. It can also display information like time, weather, tweets, and whatever is free to read
-          on the internet. The challenge in this project was integrating several languages and devices together to create this awesome system.
-          <a style="color:yellow" href="https://www.youtube.com/watch?v=D2vUIFWE_us">YouTube Video Here</a> and the GitHub code
-          <a style="color:yellow" href="https://github.com/Rmacias91/Led_Panels">Right Here</a>.</p>
-        <br>
-        <div class="green">Richie-ee@AboutMe:~$ </div>echo "${toolsUsed[*]}"
-        <ul>
-          <li>Raspberry Pi</li>
-          <li>(2)16x32 LED panels</li>
-          <li>Hzeller's Library</li>
-          <li>C++</li>
-          <li>Python</li>
-          <li>3rd Party API's</li>
-        </ul>
-      </div>
-    </div>
-  </div>
-
-
-  <div class="subtitle white">
-    <div style="font-size:0.4em" class="green">Richie-ee@AboutMe:~$ </div>
-    Contact me
-  </div>
-  <div class="container-fluid">
-    <div id="contactMe"class="row">
-
-
-
-      <div style="margin-bottom:10%;" class="col-sm-4">
-        <a href="http://www.github.com/Rmacias91">
-          <img class="img-rounded contactPic " src="./github.png">
-        </a>
+      <div class="container-fluid pt-1">
+        <div class="row terminal">
+          <div class="col-xs-4" margin="auto"align="middle" >
+            <img class="img-fluid rounded" src="./images/Movies.PNG" width="65%">
+          </div>
+          <div class="col-xs-8 py-3 px-2 content">
+            <p class="lead">Android App created in Android Development Class from Udacity</p>
+            <p>The "Movies" App helps me know what movies are worth watching. With a simple HTML request to "theMoviesDB.org website",
+              the phone recieves the best movies by popularity or rating in a JSON response. With an Async Task, I use Picasso and a
+              custom RecyclerView to display these awesome movies. For more information on a movie, just click on the movie Poster.
+              The code is <a href="https://github.com/Rmacias91/AndroidPortfolio/tree/master/Movies"> here! </a>
+            </p>
+          </div>
+        </div>
       </div>
 
-      <div class="col-sm-4">
-        <a href="https://mail.google.com/mail/?view=cm&fs=1&to=Rmacias2454@gmail.com">
-          <img class="img-rounded contactPic" style="margin-top:5%;" src="./mail.png">
-        </a>
-        <br>
-        <div class="white">Rmacias2454@gmail.com</div>
-      </div>
-      <div class="col-sm-4">
-        <a href="https://www.linkedin.com/in/richard-macias-295687a1/">
-          <img class="img-rounded contactPic" src="./linkdin.png">
-        </a>
-      </div>
-    </div>
-  </div>
 
-  <div class="subtitle white">
-    <div style="font-size:0.4em" class="green">Richie-ee@AboutMe:~$ </div>
-    <a style="color:yellow;" href="https://richieblogword.wordpress.com/">My Blog </a>
+      <section class="py-5 content">
+          <div class="container">
+              <h1>Contact</h1>
+              <p class="lead">Need more information?</p>
+<div class = "container">
+<div class = "row">
+  <div class=col-xs-6> <a href="https://www.facebook.com/richard.macias.102">
+      <img class="img-rounded" src="./images/fb.jpg"  width=20%></a>
   </div>
+  <div class=col-xs-6> <a href="http://www.github.com/Rmacias91">
+      <img class="img-rounded" src="./images/github.png"  width=20%></a>
+  </div>
+</div>
+<div class = "row">
+  <div class=col-xs-6> <a href="https://mail.google.com/mail/?view=cm&fs=1&to=Rmacias2454@gmail.com">
+      <img class="img-rounded" src="./images/mail.png" width=20%></a>
+  </div>
+  <div class=col-xs-6><a href="https://www.linkedin.com/in/richard-macias-295687a1/">
+    <img class="img-rounded" src="./images/linkdin.png" width=20%></a>
+  </div>
+</div>
+<div class = "row">
+  <div class=col-xs-12><a href="https://richieblogword.wordpress.com/">
+    <img class="img-rounded" src="./images/blog.jpg" width=20%></a>
+  </div>
+</div>
+
+</div>
+
+</div>
+  </section>
+
 
 
 </body>
-
-
-
-</html>
