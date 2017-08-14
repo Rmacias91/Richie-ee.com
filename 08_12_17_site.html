@@ -17,7 +17,7 @@
 
 <!-- Lets use BootStrap and Mobile First Design-->
 
-<nav class="navbar navbar-toggleable-md navbar-light bg-faded">
+<nav class="navbar fixed-top navbar-toggleable-md navbar-light bg-faded">
   <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
@@ -27,7 +27,7 @@
       <a class="nav-item nav-link" href="#aboutMe">About Me</a>
       <a class="nav-item nav-link" href="#portfolio">Portfolio</a>
       <a class="nav-item nav-link" href="https://www.github.com/Rmacias91">Github</a>
-      <a class="nav-item nav-link href="https://richieblogword.wordpress.com/>Blog</a>
+      <a class="nav-item nav-link" href="https://richieblogword.wordpress.com"/>Blog</a>
     </div>
   </div>
 </nav>
@@ -41,7 +41,7 @@
       </div>
   </header>
 
-  <section class="py-5">
+  <section id="aboutMe"class="py-5">
       <div class="container">
           <h1>About Me</h1>
           <p class="lead">Software Developer Located in Chicago</p>
@@ -53,26 +53,26 @@
   </section>
 
 
-  <section class="py-5 bg-image-full" style="background-image: url('./img2.jpg');">
+  <section class="py-5 bg-image-full img-rounded" style="background-image: url('./richie.jpg');">
     <div style="height: 200px;"></div>
 </section>
+<p class="lead" style = "text-align:center;">In case you were wondering, that's me!</p>
 
-<section class="py-5" style="text-align: center;">
+<section id="portfolio" class="pt-5" style="text-align: center;">
     <div class="container">
         <h1>Portfolio</h1>
-        <p class="lead">Cryptogram App</p>
+        <p class="lead"><b>Cryptogram App</b></p>
 
     </div>
 </section>
 
 
-<!--**************************************-->
-  <div class="container-fluid py-5">
+  <div class="container-fluid pt-1">
     <div class="row terminal">
-      <div class="col-sm-4">
-        <img class="img-fluid phoneImg" src="./sdpCrypt.PNG" width=65% align="middle" >
+      <div class="col-xs-4" margin="auto"align="middle">
+        <img class="img-fluid rounded" src="./sdpCrypt.PNG" width=65%  >
       </div>
-      <div class="col-sm-8 py-5">
+      <div class="col-xs-8 pt-3" style="text-align:center;">
         <p class="lead">Android App created in CS6300 Software Development Process</p>
         <p>A puzzle application was created in a team of four software developers. Our team was given specific user
         requirements and a premade Web Service Utility. The project is well designed, documented, tested, and met all requirements.
@@ -80,12 +80,84 @@
       </div>
     </div>
   </div>
-<!--**************************************-->
+
+  <section class="pt-5" style="text-align: center;">
+      <div class="container">
+          <p class="lead"><b>Cross-site Request Forgery, Scripting, and SQL Injection attacks</b></p>
+      </div>
+  </section>
 
 
-<!--
-  <img class="img-fluid" src="http://i.imgur.com/c6ot6qU.gif" align="middle" >
--->
+    <div class="container-fluid pt-1">
+      <div class="row terminal">
+        <div class="col-xs-4" margin="auto"align="middle">
+          <img class="img-fluid rounded" src="./xssAtk.png" >
+        </div>
+        <div class="col-xs-8 pt-3" style="text-align:center;">
+          <p class="lead">Android App created in CS6300 Software Development Process</p>
+          <p>A puzzle application was created in a team of four software developers. Our team was given specific user
+          requirements and a premade Web Service Utility. The project is well designed, documented, tested, and met all requirements.
+          Due to Georgia Tech policies, the source code can not be displayed on a public repository.</p>
+        </div>
+      </div>
+    </div>
+
+    <section class="pt-5" style="text-align: center;">
+        <div class="container">
+            <p class="lead"><b>Movie Reviews!</b></p>
+        </div>
+    </section>
+
+
+      <div class="container-fluid pt-1">
+        <div class="row terminal">
+          <div class="col-xs-4" margin="auto"align="middle" >
+            <img class="img-fluid rounded" src="./Movies.PNG" width="65%">
+          </div>
+          <div class="col-xs-8 pt-3" style="text-align:center;">
+            <p class="lead">Android App created in Android Development Class from Udacity</p>
+            <p>The "Movies" App helps me know what movies are worth watching. With a simple HTML request to "theMoviesDB.org website",
+              the phone recieves the best movies by popularity or rating in a JSON response. With an Async Task, I use Picasso and a
+              custom RecyclerView to display these awesome movies. For more information on a movie, just click on the movie Poster.
+              The code is <a href="https://github.com/Rmacias91/AndroidPortfolio/tree/master/Movies"> here! </a>
+            </p>
+          </div>
+        </div>
+      </div>
+
+
+      <section class="py-5" style="text-align:center;">
+          <div class="container">
+              <h1>Contact</h1>
+              <p class="lead">Need more information?</p>
+<div class = "container">
+<div class = "row">
+  <div class=col-xs-6> <a href="https://www.facebook.com/richard.macias.102">
+      <img class="img-rounded" src="./fb.jpg"  width=20%></a>
+  </div>
+  <div class=col-xs-6> <a href="http://www.github.com/Rmacias91">
+      <img class="img-rounded" src="./github.png"  width=20%></a>
+  </div>
+</div>
+<div class = "row">
+  <div class=col-xs-6> <a href="https://mail.google.com/mail/?view=cm&fs=1&to=Rmacias2454@gmail.com">
+      <img class="img-rounded" src="./mail.png" width=20%></a>
+  </div>
+  <div class=col-xs-6><a href="https://www.linkedin.com/in/richard-macias-295687a1/">
+    <img class="img-rounded" src="./linkdin.png" width=20%></a>
+  </div>
+</div>
+<div class = "row">
+  <div class=col-xs-12><a href="https://richieblogword.wordpress.com/">
+    <img class="img-rounded" src="./blog.jpg" width=20%></a>
+  </div>
+</div>
+
+</div>
+
+</div>
+  </section>
+
 
 
 </body>
