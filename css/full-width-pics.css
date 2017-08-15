@@ -32,6 +32,10 @@ width:100%;
   width:65%;
 }
 
+.contactMePic{
+  width:15%;
+}
+
 
 @media only screen and (min-width: 600px) {
     /* For anything above Mobile screens: */
@@ -51,6 +55,9 @@ width:100%;
 
     .phonePic{
       width:50%;
+    }
 
+    .contactMePic{
+      width:50%;
     }
 }
