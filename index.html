@@ -50,6 +50,8 @@
 
   <section id="aboutMe"class="py-5">
       <div class="container">
+        <div class="row">
+          <div class="col-md-6">
           <h1>About Me</h1>
           <p class="lead">Software Developer Located in Chicago</p>
           <p>Currently developing mobile and web applications. Formal education in Electrical Engineering
@@ -57,28 +59,34 @@
           I've worked in various fields solving unique problems on the way. I am self taught in core computer science fundamentals,
           Java,C,Python,HTML,CSS,Web and Android frameworks.</p>
           <p class="lead">Download my Resume <a href ="./docs/RichardAMacias.pdf"target="_blank"><b>here</b>.</a></p>
+        </div>
+        <div class="col-md-6 py-3">
+          <img class=" profilePic img" src="./images/richie.jpg" >
+          <p class="lead" style = "text-align:center;">In case you were wondering, that's me!</p>
+        </div>
+
+        </div>
       </div>
   </section>
 
 
-<img class=" profilePic img" src="./images/richie.jpg" >
-<p class="lead" style = "text-align:center;">In case you were wondering, that's me!</p>
+
 
 <section id="portfolio" class="pt-5 content">
     <div class="container">
         <h1>Portfolio</h1>
-        <p class="lead"><b>Cryptogram App</b></p>
+        <h4 class="py-5">Cryptogram App</h4>
 
     </div>
 </section>
 
 
-  <div class="container pt-1">
-    <div class="row terminal">
-      <div class="col-sm-4">
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-sm-4"align="middle">
         <img class="phonePic" src="./images/sdpCrypt.PNG" >
       </div>
-      <div class="col-sm-8 py-3 px-2 content">
+      <div class="col-sm-8 py-3 content">
         <p class="lead">Android App created in CS6300 Software Development Process</p>
         <p>A puzzle application was created in a team of four software developers. Our team was given specific user
         requirements and a premade Web Service Utility. The project is well designed, documented, tested, and met all requirements.
@@ -89,21 +97,22 @@
 
   <section class="pt-5 content">
       <div class="container">
-          <p class="lead"><b>Cross-site Request Forgery, Scripting, and SQL Injection attacks</b></p>
+          <h4>Cross-site Request Forgery, Scripting, and SQL Injection attacks</h4>
       </div>
   </section>
 
 
-    <div class="container-fluid pt-1">
+    <div class="container-fluid py-5">
       <div class="row terminal">
-        <div class="col-sm-4">
+        <div class="col-sm-5">
           <img class="img-fluid rounded" src="./images/xssAtk.png" >
         </div>
-        <div class="col-sm-8 py-3 px-2 content">
-          <p class="lead">Android App created in CS6300 Software Development Process</p>
-          <p>A puzzle application was created in a team of four software developers. Our team was given specific user
-          requirements and a premade Web Service Utility. The project is well designed, documented, tested, and met all requirements.
-          Due to Georgia Tech policies, the source code can not be displayed on a public repository.</p>
+        <div class="col-sm-7 py-3 px-2 content">
+          <p class="lead">Web attacks on a payroll site in CS6035 Introduction to Information Secuirty</p>
+          <p>A fake payroll site was given to the students with certain requirements for the attacks to be successful.
+            Secuirty defenses were placed in the site and the attacks were invisible to the users. Html,css, javascript, and SQL
+            were used to craft these attacks. This project required creative thinking and well crafted code.
+          </p>
         </div>
       </div>
     </div>
@@ -117,10 +126,10 @@
 
       <div class="container-fluid pt-1">
         <div class="row terminal">
-          <div class="col-xs-4" margin="auto"align="middle" >
+          <div class="col-sm-4" align="middle" >
             <img class="phonePic rounded" src="./images/Movies.PNG">
           </div>
-          <div class="col-xs-8 py-3 px-2 content">
+          <div class="col-sm-8 py-3 px-2 content">
             <p class="lead">Android App created in Android Development Class from Udacity</p>
             <p>The "Movies" App helps me know what movies are worth watching. With a simple HTML request to "theMoviesDB.org website",
               the phone recieves the best movies by popularity or rating in a JSON response. With an Async Task, I use Picasso and a
