@@ -36,6 +36,9 @@ width:100%;
   width:15%;
 }
 
+.coloredBack{
+  background-color: #f2f4f2;
+}
 
 @media only screen and (min-width: 600px) {
     /* For anything above Mobile screens: */
